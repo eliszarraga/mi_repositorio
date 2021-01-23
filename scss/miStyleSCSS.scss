@@ -1,0 +1,189 @@
+$colorParrafo: white;
+$colorSubtitulo: orange;
+$styleBorder1:solid orange 5px;
+$styleBorder2: solid yellow 5px;
+$ColorFondo: #2C2C2C; 
+
+body{
+	background-image: url("https://hdwallsource.com/img/2015/9/technology-wallpaper-47751-49307-hd-wallpapers.jpg");
+}
+
+/*.Bloque1__Articulo1{
+	margin: 20px;
+	background-color: #2C2C2C;
+	border: $styleBorder1;
+		h2{
+			color: $colorSubtitulo;
+			text-align: center;
+		}
+}*/
+
+.Bloque1__Articulo1--mod1 {
+	p{
+		color: $colorParrafo;
+		font-size: 20px;
+		margin: 10px;
+	}
+}
+
+/*.Bloque2__Articulo2 {
+	margin: 20px;
+	background-color: #2C2C2C;
+	border: $styleBorder1;
+		h2{
+			color: $colorSubtitulo;
+			text-align: center;
+	}
+}*/
+
+.Bloque2__Articulo2--mod2 {
+	p{
+		color: $colorParrafo;
+		font-size: 20px;
+		margin: 10px;
+	}
+}
+
+/*.Bloque3__Articulo3 {
+	margin: 20px;
+	background-color: #2C2C2C;
+	border: $styleBorder1;
+		h2{
+			color: $colorSubtitulo;
+			text-align: center;
+	}
+}*/
+
+.Bloque3__Articulo3--mod3 {
+	p{
+		color: $colorParrafo;
+		font-size: 20px;
+		margin: 10px;
+	}
+}
+
+.Bloque4__Encabezado{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 400px;
+	height: 100px;
+		h1{
+			color: $colorParrafo;
+		}
+}
+
+h4{
+	margin: 20px;
+	background-color: #2C2C2C;
+	border: $styleBorder2;
+	color: $colorParrafo;
+	text-align: center;
+	opacity: 1;
+}
+
+.Bloque5__Footer{
+	justify-content: space-around;
+	background-color: $ColorFondo;
+	border: $styleBorder1;
+		p{
+			color: $colorSubtitulo;	
+	}
+}
+
+.Bloque5__Footer--mod{
+	a{
+		text-align: center;
+		font-family: arial;
+		color: $colorSubtitulo;	
+	}
+}
+
+.Bloque5-6__Fieldset5-6{
+	background-color: #2C2C2C;
+	text-align: center;
+	border-top: double orange 10px;
+	border-right: double orange 10px;
+	border-bottom: double orange 10px;
+	border-left: double orange 10px;
+	margin: 40px;
+		legend{
+			color: $colorParrafo;
+			width: 300px;
+			background: #2C2C2C;
+			text-transform: uppercase;
+			text-align: center;
+			font-family: impact, sans-serif;
+			border: $styleBorder1;
+			opacity: 0.9;
+			}
+}
+
+.Bloque5-6__Fieldset5-6--mod{
+	color: #F5C70E;
+	list-style-type: upper-latin;
+	font-family: impact, sans-serif;
+	font-size: 20px;
+}
+
+.Bloque7__Consul-respuesta{
+	margin: 20px;
+	width: 400px;
+	background-color: #2C2C2C;
+	text-align: center;
+}
+
+.Bloque7__Consul-respuesta--New{
+		@extend .Bloque7__Consul-respuesta;
+		border: $styleBorder1;
+		color: $colorParrafo;
+}
+
+@for $i from 1 through 5{
+
+	.bloque__Caja#{$i} {
+
+		margin: 20px;
+		background-color: #2C2C2C;
+		opacity: 0.9;
+			h2{
+				color: $colorSubtitulo;
+				text-align: center;
+			}
+		}
+}
+
+/*funcion*/
+@mixin borderStyle ($orange, $double){
+
+	color: $orange;
+	border: $double;
+
+}
+
+.styleBorder{
+	@include borderStyle (orange, double 3px)
+}
+
+#effect-Text1{
+	animation-duration: 2s;
+	animation-name: un_efecto1;
+   	animation-iteration-count: infinite;
+   	animation-timing-function: ease-in;
+   	animation-duration: 2s;
+   	animation-delay: 0s;
+}
+
+@keyframes un_efecto1 {
+
+  	 0%{ width: 100%;
+  	 background-color: black; }
+  	 25%{ width: 100%; }
+  	 50%{ width: 100%;
+     background-color: #383838; }
+  	 75%{ width: 100%}
+  	 100%{ width: 100%;
+     background-color: black; }
+
+}

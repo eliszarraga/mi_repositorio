@@ -1,0 +1,176 @@
+body {
+  background-image: url("https://hdwallsource.com/img/2015/9/technology-wallpaper-47751-49307-hd-wallpapers.jpg"); }
+
+/*.Bloque1__Articulo1{
+	margin: 20px;
+	background-color: #2C2C2C;
+	border: $styleBorder1;
+		h2{
+			color: $colorSubtitulo;
+			text-align: center;
+		}
+}*/
+.Bloque1__Articulo1--mod1 p {
+  color: white;
+  font-size: 20px;
+  margin: 10px; }
+
+/*.Bloque2__Articulo2 {
+	margin: 20px;
+	background-color: #2C2C2C;
+	border: $styleBorder1;
+		h2{
+			color: $colorSubtitulo;
+			text-align: center;
+	}
+}*/
+.Bloque2__Articulo2--mod2 p {
+  color: white;
+  font-size: 20px;
+  margin: 10px; }
+
+/*.Bloque3__Articulo3 {
+	margin: 20px;
+	background-color: #2C2C2C;
+	border: $styleBorder1;
+		h2{
+			color: $colorSubtitulo;
+			text-align: center;
+	}
+}*/
+.Bloque3__Articulo3--mod3 p {
+  color: white;
+  font-size: 20px;
+  margin: 10px; }
+
+.Bloque4__Encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 100px; }
+  .Bloque4__Encabezado h1 {
+    color: white; }
+
+h4 {
+  margin: 20px;
+  background-color: #2C2C2C;
+  border: solid yellow 5px;
+  color: white;
+  text-align: center;
+  opacity: 1; }
+
+.Bloque5__Footer {
+  justify-content: space-around;
+  background-color: #2C2C2C;
+  border: solid orange 5px; }
+  .Bloque5__Footer p {
+    color: orange; }
+
+.Bloque5__Footer--mod a {
+  text-align: center;
+  font-family: arial;
+  color: orange; }
+
+.Bloque5-6__Fieldset5-6 {
+  background-color: #2C2C2C;
+  text-align: center;
+  border-top: double orange 10px;
+  border-right: double orange 10px;
+  border-bottom: double orange 10px;
+  border-left: double orange 10px;
+  margin: 40px; }
+  .Bloque5-6__Fieldset5-6 legend {
+    color: white;
+    width: 300px;
+    background: #2C2C2C;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: impact, sans-serif;
+    border: solid orange 5px;
+    opacity: 0.9; }
+
+.Bloque5-6__Fieldset5-6--mod {
+  color: #F5C70E;
+  list-style-type: upper-latin;
+  font-family: impact, sans-serif;
+  font-size: 20px; }
+
+.Bloque7__Consul-respuesta, .Bloque7__Consul-respuesta--New {
+  margin: 20px;
+  width: 400px;
+  background-color: #2C2C2C;
+  text-align: center; }
+
+.Bloque7__Consul-respuesta--New {
+  border: solid orange 5px;
+  color: white; }
+
+.bloque__Caja1 {
+  margin: 20px;
+  background-color: #2C2C2C;
+  opacity: 0.9; }
+  .bloque__Caja1 h2 {
+    color: orange;
+    text-align: center; }
+
+.bloque__Caja2 {
+  margin: 20px;
+  background-color: #2C2C2C;
+  opacity: 0.9; }
+  .bloque__Caja2 h2 {
+    color: orange;
+    text-align: center; }
+
+.bloque__Caja3 {
+  margin: 20px;
+  background-color: #2C2C2C;
+  opacity: 0.9; }
+  .bloque__Caja3 h2 {
+    color: orange;
+    text-align: center; }
+
+.bloque__Caja4 {
+  margin: 20px;
+  background-color: #2C2C2C;
+  opacity: 0.9; }
+  .bloque__Caja4 h2 {
+    color: orange;
+    text-align: center; }
+
+.bloque__Caja5 {
+  margin: 20px;
+  background-color: #2C2C2C;
+  opacity: 0.9; }
+  .bloque__Caja5 h2 {
+    color: orange;
+    text-align: center; }
+
+/*funcion*/
+.styleBorder {
+  color: orange;
+  border: double 3px; }
+
+#effect-Text1 {
+  animation-duration: 2s;
+  animation-name: un_efecto1;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+@keyframes un_efecto1 {
+  0% {
+    width: 100%;
+    background-color: black; }
+  25% {
+    width: 100%; }
+  50% {
+    width: 100%;
+    background-color: #383838; }
+  75% {
+    width: 100%; }
+  100% {
+    width: 100%;
+    background-color: black; } }

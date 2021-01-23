@@ -1,0 +1,429 @@
+body{
+	background-image: url("https://hdwallsource.com/img/2015/9/technology-wallpaper-47751-49307-hd-wallpapers.jpg");
+}
+
+.Bloque4__Encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  height: 100px; 
+}
+
+.Bloque4__Encabezado h1 {
+	color: white;
+}
+
+.centrar{
+	text-align: center;
+}
+
+.paraElindex{
+	font-family: impact, sans-serif;
+	font-size: 35px;
+	margin: 0;
+}
+
+.PaisChile{
+	display: flex;
+	flex-direction: column;
+	border: outset 10px #F5C70E;
+	width: 500px;
+	height: 300px;
+	background: #404040;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.ciudadesChiles{
+	color:#0DC4F2;
+}
+
+.paraVinietas{
+	color: #F5C70E
+}
+
+.paraLosdiv{
+	color: #F5C70E;
+	list-style-type: upper-latin;
+	font-family: impact, sans-serif;
+	font-size: 20px;
+}
+
+.paraLosinput{
+	background-color: #C3E4EC;
+}
+
+.paraLegend{
+	color:#C3E4EC;
+	font-size: 35px;
+	background: #2C2C2C;
+	width: 80%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: impact, sans-serif;
+	border: outset 5px orange;
+	padding: 10px;
+}
+
+.paraFieldset{
+	background-color: ;
+	text-align: center;
+	border-top: double 5px orange;
+	border-right: double 5px orange;
+	border-bottom: double 5px orange;
+	border-left: double 5px orange;
+}
+
+.paraCriticas{
+	color: #FE0000;
+	background-color: #FDF402;
+}
+
+.paraTablas1{
+	color: #F5C70E;
+}
+
+.paraTablas2{
+	color: white;
+}
+
+.buenosAires{
+	background-color:#2C2C2C;
+	font-size:  30px;
+}
+
+td{
+	font-family: arial;
+}
+
+.flex-Encabezado div h1 ins{
+	color: #0DC4F2;
+}
+
+#effect-Aperecer{
+	animation-duration: 2s;
+	animation-name: aparecer;
+   	animation-iteration-count: infinite;
+   	animation-timing-function: ease-in;
+   	animation-duration: 2s;
+   	animation-delay: 0s;
+}
+
+.quienesSomos{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #515151;
+	margin: 10px 10px 20px 20px;
+	border-top: double 5px black;
+	border-bottom: double 5px black;
+	border-left: double 5px black;
+	border-right: double 5px black;
+}
+
+.quienesSomos h2{
+	color: #F5C70E;
+}
+
+.quienesSomos h4{
+	color: #FFFFFF;
+}
+
+.flex-UbicyObj{
+	display: flex;
+	flex-direction:row ;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #515151;
+	margin: 10px 10px 20px 20px;
+	border-top: double 5px black;
+	border-bottom: double 5px black;
+	border-left: double 5px black;
+	border-right: double 5px black;
+}
+
+.Hijo-Obj{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height:300px;
+	width: 500px; 
+	border-top: double 5px cyan;
+	border-bottom: double 5px cyan;
+	border-left: double 5px cyan;
+	border-right: double 5px cyan;
+}
+
+.Hijo-ubic{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-top: double 5px cyan;
+	border-bottom: double 5px cyan;
+	border-left: double 5px cyan;
+	border-right: double 5px cyan;
+}
+
+.ciudadesChiles{
+	color:#0DC4F2;
+}
+
+
+.flex-UbicyObj ul{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.flex-Argentina{
+	display: flex;
+	flex-direction:row ;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #18379B;
+	margin: 10px 10px 20px 20px;
+	border-top: double 5px black;
+	border-bottom: double 5px black;
+	border-left: double 5px black;
+	border-right: double 5px black;	
+	color: #FFFFFF;
+}
+
+/*******************************************-GRID-************************************************************/
+
+#grilla{
+
+	display: grid;
+	grid-template-areas:
+
+		"nav producto1"
+		"nav producto2"
+		"nav producto3"
+		"nav producto4"
+		"nav producto5";
+
+	grid-template-rows: 250px 250px 250px 250px 320px;
+	grid-template-columns: 20% 75%;
+	justify-content: center;
+
+	grid-column-gap: 20px;
+	grid-row-gap: 15px;
+}
+
+section#producto1 {
+   	grid-area: producto1;
+   	display: grid;
+	grid-template-rows: 200px;
+	grid-template-columns: 200px 250px 300px 100px;
+	align-items: center; 
+	text-align: center;
+	background-image: linear-gradient(black, gray, black);
+}
+
+section#producto2 {
+  	grid-area: producto2;
+  	display: grid;
+	grid-template-rows: 200px;
+	grid-template-columns: 200px 250px 300px 100px;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(black, gray, black); 
+}
+
+section#producto3 {
+	grid-area: producto3;
+	display: grid;
+	grid-template-rows: 200px;
+	grid-template-columns: 200px 250px 300px 100px;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(black, gray, black);
+}
+
+section#producto4 {
+	grid-area: producto4;
+  	display: grid;
+	grid-template-rows: 200px;
+	grid-template-columns: 200px 250px 300px 100px;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(black, gray, black);
+}
+
+section#producto5 {
+	grid-area: producto5;
+  	display: grid;
+	grid-template-rows: 300px;
+	grid-template-columns: 200px 250px 300px 100px;
+	align-items: center;
+	text-align: center;
+	background-image: linear-gradient(black, gray, black);
+}
+
+nav {
+   grid-area: nav;
+   text-align: center;
+
+}
+
+
+/*************************************************************************************************************/
+
+.navLista {
+	color: white;
+	text-align: center;
+	text-transform: lowercase;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	border: double 3px cyan;
+	align-items: center;
+	background-color: #2C2C2C;
+}
+
+@keyframes aparecer{
+	0%{opacity: 0}
+	50%{opacity: 2}
+	100%{opacity: 0}
+}
+
+input.buscador{
+	width: 100px; 
+	transition: all 1s;
+}
+
+input:focus{
+	width: 200px;
+	font-size: 24px;
+}
+
+@keyframes un_efecto1 {
+
+  	 0%{ width: 99%; }
+  	 25%{ width: 99%; }
+  	 50%{ width: 99%;
+     background-color: #18379B; }
+  	 75%{ width: 99%}
+  	 100%{ width: 99%;
+     background-color: #2C2C2C; }
+}
+
+@keyframes un_efecto2 {
+
+  	 0%{ width: 99%; }
+  	 25%{ width: 99%; }
+  	 50%{ width: 99%;
+     background-color: #2C2C2C; }
+  	 75%{ width: 99%}
+  	 100%{ width: 99%;
+     background-color: #18379B; }
+}
+
+
+nav#buscador{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav#buscador a h4:hover{
+	background-color: #18379B;
+	border-top: outset 3px white;
+	border-right: outset 3px white;
+	border-bottom: outset 3px white;
+	border-left: outset 3px white;
+	transition: all 1s;
+}
+
+/*******************************************-EFECTOS-*********************************************************/
+
+.opacity-Flex {
+	opacity: 0.8;
+}
+
+#fondo_Bg1{
+	background-image: linear-gradient(black, gray, black);
+}
+
+#fondo_Bg2{
+	background-image: linear-gradient(black, #0012FF, black);
+}
+
+#fondo_Bg3{
+	background-image: linear-gradient(black, #FF8A00, black);
+}
+
+#effect-Aperecer{
+	animation-duration: 2s;
+	animation-name: aparecer;
+   	animation-iteration-count: infinite;
+   	animation-timing-function: ease-in;
+   	animation-duration: 2s;
+   	animation-delay: 0s;
+}
+
+#effect-Text1{
+	animation-duration: 2s;
+	animation-name: un_efecto1;
+   	animation-iteration-count: infinite;
+   	animation-timing-function: ease-in;
+   	animation-duration: 2s;
+   	animation-delay: 0s;
+}
+
+#effect-Text2{
+	animation-name: un_efecto2;
+   	animation-iteration-count: infinite;
+   	animation-timing-function: ease-in;
+   	animation-duration: 4s;
+   	animation-delay: 0s;
+}
+
+@media(max-width: 900px){
+p, div h1, div div div div div h2, div h4, div div h2{font-size: 15px} 
+}
+
+@keyframes aparecer{
+	0%{opacity: 0}
+	50%{opacity: 2}
+	100%{opacity: 0}
+}
+
+@keyframes un_efecto1 {
+
+  	 0%{ width: 100%;
+  	 background-color: black; }
+  	 25%{ width: 100%; }
+  	 50%{ width: 100%;
+     background-color: #383838; }
+  	 75%{ width: 100%}
+  	 100%{ width: 100%;
+     background-color: black; }
+
+}
+
+.effect_Trans1{
+	transition: all 2s;
+}
+
+.effect_Trans1 div:hover{
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	background-image: linear-gradient(gray, black, gray);	
+}
+
+@keyframes un_efecto2 {
+
+  	 0%{ width: 100%;
+  	 background-color: black;}
+  	 25%{ width: 100%; }
+  	 50%{ width: 100%;
+     background-color: #C39300;}
+  	 75%{ width: 100%}
+  	 100%{ width: 100%;
+     background-color: black;}

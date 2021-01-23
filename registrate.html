@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html lang="en">
+		
+		<head> <!-- aqui INICIA el HEAD-->
+		
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+      		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+      		<meta name="REGISTRATE" content="iniciar, registrar, iniciar sesión, formulario, ingresar, condiciones, términos">
+
+      		<link rel="stylesheet" type="text/css" href="css/index.css"> 
+
+      		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+      		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+      		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      		<title>REGISTRATE - H.D.</title>
+
+		</head> <!-- aqui TERMINA el HEAD-->
+
+		<body><!-- aqui INICIA el BODY-->
+	
+			<header> <!-- AQUI SE APLICA UN HEADER-->
+
+			<div class="Bloque4__Encabezado efecto_Encabezado">	
+
+				<img src="imagenes_pag_web\doggyn.png" alt="logotipo de doggyn" width="100" height="100"/> <!-- AQUI SE COLOCA EL LOGOTIPO-->
+
+				<h1>HOLA DOGGYNG</h1> <hr/> <!-- AQUI SE COLOCA EL TITULO DE LA PAG WEB-->
+
+			</div>
+
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-warning">
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        		<span class="navbar-toggler-icon"></span>
+        	</button>
+          	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+            	<ul class="navbar-nav mr-auto">
+              		<li class="nav-item">
+                		<a class="nav-link" href="Index_bstp_js.html">INICIO<span class="sr-only">(current)</span></a>
+              		</li>
+              		<li class="nav-item">
+                		<a class="nav-link" href="servicios.html">SERVICIOS</a>
+              		</li>
+              		<li class="nav-item">
+                		<a class="nav-link" href="referencias.html">REFERENCIAS</a>
+              		</li>
+              		<li class="nav-item">
+                		<a class="nav-link" href="catalogo_grid.html">CATALOGO<span class="badge badge-warning" id="effect-Aperecer">Nuevo</span></a>
+              		</li>
+              		<li class="nav-item active">
+                		<a class="nav-link" href="registrate.html">REGISTRATE</a>
+              		</li>
+            	</ul>
+            	<form class="form-inline my-2 my-lg-0">
+              		<input class="form-control mr-sm-2" type="search" placeholder="busca aqui..." aria-label="Search">
+              		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
+            	</form>
+          	</div>
+        </nav>
+
+        </header> <!-- AQUI SE CULMINA UN HEADER-->
+
+<hr/> <!-----------------------------------AQUI SEPARAMOS------------------------------------------------>
+
+	<div class="container text-light">
+
+		<form> <!-- aqui INICIA el FORMULARIO-->
+
+			<fieldset class="paraFieldset" id="fondo_Bg1">
+
+				<legend id="effect-Text1" class="paraLegend text-warning"> complete el formulario</legend><br/> 
+	
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+					<div class="paraLosdiv"> Nombre </div> <!-- aqui COLOCAMOS EL NOMBRE-->
+					<input type="name" name="nombre" class="paraLosinput"><br/>
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+					<div class="paraLosdiv"> Apellido </div> <!-- aqui COLOCAMOS EL APELLIDO-->
+					<input type="name" name="apellido" class="paraLosinput"><br/>
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+					<div class="paraLosdiv"> Edad </div> <!-- aqui COLOCAMOS LA EDAD-->
+					<input type="numnber" name="edad" class="paraLosinput"><br/>
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+					<div class="paraLosdiv"> tipo de sexo </div> <br/> <!-- aqui COLOCAMOS EL TIPO DE SEXO-->
+					<div class="paraLosdiv"> Soy hombre </div>
+					<input type="radio" name="sexo" value="hombre" class="paraLosinput">
+					<div class="paraLosdiv"> Soy mujer </div>
+					<input type="radio" name="sexo" value="mujer" class="paraLosinput"><br/>
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>	
+
+					<div class="paraLosdiv">Nacionalidad</div><!-- aqui COLOCAMOS LA NACIONALIDAD-->
+						<select name="pais"> <!-- aqui INICIA UNA OPCCION DE SELECCION-->
+
+							<option value="Sel" class="paraLosinput">Seleccione un pais</option>
+							<option value="Ar" class="paraLosinput">Argentina</option>
+							<option value="Bo" class="paraLosinput">Bolivia</option>
+							<option value="Br" class="paraLosinput">Brasil</option>
+							<option value="Ch" class="paraLosinput">Chile</option>
+							<option value="Co" class="paraLosinput">Colombia</option>
+							<option value="CR" class="paraLosinput">Costa Rica</option>
+							<option value="Cu" class="paraLosinput">Cuba</option>
+							<option value="Ec" class="paraLosinput">Ecuador</option>
+							<option value="ES" class="paraLosinput">El Salvador</option>
+							<option value="Gua" class="paraLosinput">Guatemala</option>
+							<option value="Ho" class="paraLosinput">Honduras</option>
+							<option value="Me" class="paraLosinput">Mexico</option>
+							<option value="Ni" class="paraLosinput">Nicaragua</option>
+							<option value="Pn" class="paraLosinput">Panama</option>
+							<option value="Pr" class="paraLosinput">Paraguay</option>
+							<option value="Pe" class="paraLosinput">Peru</option>
+							<option value="PTR" class="paraLosinput">Puerto Rico</option>
+							<option value="RD" class="paraLosinput">Republica dominicana</option>
+							<option value="Ur" class="paraLosinput">Uruguay</option>
+							<option value="Ve" class="paraLosinput">Venezuela</option>
+
+					</select> <br/> <!-- aqui TERMINA UNA OPCCION DE SELECCION-->
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+					<div class="paraLosdiv"> Direccion </div> <!-- aqui COLOCAMOS LA DIRECCION-->
+					<input type="direction" name="direccion" class="paraLosinput"><br/>
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>						
+					<div class="paraLosdiv"> Correo Electronico </div> <!-- aqui COLOCAMOS EL E-MAIL-->
+					<input type="e-mail" name="correo electronico" class="paraLosinput"><br/>
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>	
+					
+					<div class="paraLosdiv"> Acepta los <a href="" class="navLista"> terminos </a> y las <a href="" class="navLista"> condiciones </a> </div> 
+					<input type="checkbox" name="acepta" value="1"/ class="paraLosinput"> <!-- aqui COLOCAMOS UN BOTON DE CHEQUEO-->
+
+	<br/><Hr/><br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+					<input type="submit" name="enviar" value="registrar"/> <!-- aqui COLOCAMOS UN BOTON -->
+					<input type="reset" name="borrar" value="reiniciar"/> <!-- aqui COLOCAMOS UN BOTON -->
+
+			</fieldset>
+
+	<br/><Hr/><!-----------------------------------AQUI SEPARAMOS-------------------------------------------------->
+
+				<form align="center"> <!-- AQUI TERMINA EL FORMULARIO -->
+
+					<fieldset class="paraFieldset" id="fondo_Bg1">
+
+						<legend id="effect-Text1" class="paraLegend text-warning"> <h1> inicie seccion </h1> </legend>
+
+<br/><!-----------------------------------AQUI SEPARAMOS---------------------------------------------------------->
+					
+						<h2> USUARIO </h2> <!-- AQUI COLOCAMOS EL NOMBRE-->
+						<input type="name" name="nombre" value="Nombre de usuario">
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+						<h2> CONTRASEÑA </h2> <!-- AQUI COLOCAMOs LA CONTRASEÑA-->
+						<input type="password" name="contraseña" value="contraseña"> <BR/>
+
+	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+						<input type="submit" name="ingresar" value="ingresar"/>
+
+					</fieldset>
+
+				</form> <!-- AQUI TERMINA EL FORMULARIO -->
+
+					<footer align="center"> <!-- aqui INICIA el PIE DE PAGINA-->
+
+						<a href="" class="navLista"> |¿Olvido su clave?| </a> <!-- AQUI SE COLOCA UN ENLACE-->
+						<a href="" class="navLista"> |normativas y condiciones| </a> <!-- AQUI SE COLOCA UN ENLACE-->
+
+					</footer> <!-- aqui termina el PIE DE PAGINA-->				
+
+		<form> <!-- aqui TERMINA EL FORMULARIO -->
+
+	</div>
+
+	<hr/> <!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
+
+	<footer>
+      
+        <div class="card text-center text-white bg-dark">
+          
+          <div class="card-body">
+              <h5 class="card-title">¡Doggyn, lo mejor para el mejor!</h5>
+              <p class="card-text">Elis Zarraga - Hola Doggyn 2020.</p>
+          </div>
+
+          <div class="container-fluid justify-content-around text-light">
+          <div class="row">
+            <div class="col-sm">      
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">INICIO</h5><hr class="border-warning"/>
+
+                   <ul align="left">
+                      <li>
+                        <a href="" class="text-light">¿Quien es DOGGYNG?</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">¿En Qué se basa DOGGYNG?</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Promociones</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">¿Quienes Somos?</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Nuestro Objectivo</a>
+                      </li>
+                      <li>
+                        <a href=""  class="text-light">Ubicaciones</a>
+                      </li>
+                    </ul>
+
+                  </div>
+              </div>
+            </div>
+
+<!-------------------------------------------------------------------------------------------------------------->
+
+            <div class="col-sm">
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">SERVICIO</h5><hr class="border-warning"/>
+
+                    <ul align="left">
+                      <li>
+                        <a href="" class="text-light">¿Que servicios podemos ofrecer?</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">¿Como te podriamos asesorar?</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">CONSUL-RESPUESTA</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Servicio técnico</a>
+                      </li>
+                    </ul>
+
+                  </div>
+              </div>
+            </div>
+
+<!--------------------------------------------------------------------------------------------------------------->
+
+            <div class="col-sm">
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">REFERENCIAS</h5><hr class="border-warning"/>
+
+                   <ul align="left">
+                      <li>
+                        <a href="" class="text-light">REFERENCIA</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Dar tu opinion</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Dar tu referencia</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>    
+            </div>
+            
+<!-------------------------------------------------------------------------------------------------------------->
+
+             <div class="col-sm">
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">CATALOGO</h5><hr class="border-warning"/>
+                    <h6 class="card-title text-warning" align="center" id="effect-Text1">DISPOSITIVOS</h6><hr class="border-warning"/>
+                    <ul align="left">
+                      <li>
+                        <a href="" class="text-light">celulares</a>
+                      </li>
+                      <li>
+                        <a href=""class="text-light">Audifonos</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Gamepad</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Televisores</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Notebook</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Computadora</a>
+                      </li>
+                    </ul><hr class="border-warning"/>
+                    <h6 class="card-title text-warning" align="center" id="effect-Text1">MARCAS</h6><hr class="border-warning"/>
+                     <ul align="left">
+                      <li>
+                        <a href="" class="text-light">LG</a>   
+                      </li>
+                      <li>
+                        <a href="" class="text-light">SAMSUNG</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">SONY</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">PANASONIC</a>
+                      </li>
+                    </ul>
+
+                  </div>
+              </div>    
+            </div>
+            
+<!-------------------------------------------------------------------------------------------------------------->
+
+            <div class="col-sm">
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+                  <div class="card-body">
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">REGISTRATE</h5><hr class="border-warning"/>
+
+                    <ul align="left">
+                      <li>
+                        <a href="" class="text-light">Registrate aquí</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Inicia sesión aquí</a>
+                      </li>
+                      <li>
+                        <a href="" class="text-light">Términos y condiciones</a>
+                      </li>
+                    </ul>
+
+                  </div>
+              </div>     
+            </div>
+          </div>
+        </div>
+
+          <div class="card-footer text-muted">
+            <img src="imagenes_pag_web\instagram.png" alt="cupones" width="50" height="50"/>
+            <img src="imagenes_pag_web\facebook.png" alt="cupones" width="50" height="50"/>
+            <img src="imagenes_pag_web\twitter.png" alt="cupones" width="50" height="50"/>
+          </div>
+        </div>
+
+      </footer>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+		</body> <!-- aqui TERMINA EL BODY-->
+
+</html><!-- aqui TERMINA EL HTML-->
