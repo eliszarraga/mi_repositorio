@@ -207,7 +207,7 @@ td{
 		"nav producto4"
 		"nav producto5";
 
-	grid-template-rows: 250px 250px 250px 250px 320px;
+	grid-template-rows: auto auto auto auto auto;
 	grid-template-columns: 20% 75%;
 	justify-content: center;
 
@@ -217,52 +217,24 @@ td{
 
 section#producto1 {
    	grid-area: producto1;
-   	display: grid;
-	grid-template-rows: 200px;
-	grid-template-columns: 200px 250px 300px 100px;
-	align-items: center; 
-	text-align: center;
-	background-image: linear-gradient(black, gray, black);
 }
 
 section#producto2 {
-  	grid-area: producto2;
-  	display: grid;
-	grid-template-rows: 200px;
-	grid-template-columns: 200px 250px 300px 100px;
-	align-items: center;
-	text-align: center;
-	background-image: linear-gradient(black, gray, black); 
+  	grid-area: producto2; 
 }
 
 section#producto3 {
 	grid-area: producto3;
-	display: grid;
-	grid-template-rows: 200px;
-	grid-template-columns: 200px 250px 300px 100px;
-	align-items: center;
-	text-align: center;
-	background-image: linear-gradient(black, gray, black);
+
 }
 
 section#producto4 {
 	grid-area: producto4;
-  	display: grid;
-	grid-template-rows: 200px;
-	grid-template-columns: 200px 250px 300px 100px;
-	align-items: center;
-	text-align: center;
-	background-image: linear-gradient(black, gray, black);
+
 }
 
 section#producto5 {
 	grid-area: producto5;
-  	display: grid;
-	grid-template-rows: 300px;
-	grid-template-columns: 200px 250px 300px 100px;
-	align-items: center;
-	text-align: center;
-	background-image: linear-gradient(black, gray, black);
 }
 
 nav {
@@ -324,10 +296,17 @@ input:focus{
 }
 
 
-nav#buscador{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+nav#buscador a h4{
+	background-color: #2C2C2C;
+	color: white;
+	border: solid 1px white;
+	text-align: center;
+	margin: 5px;
+	height:40px;
+	width: 200px;
+	transition: all 1s;
+	padding: 8px;
+	box-sizing: border-box;
 }
 
 nav#buscador a h4:hover{
@@ -336,7 +315,8 @@ nav#buscador a h4:hover{
 	border-right: outset 3px white;
 	border-bottom: outset 3px white;
 	border-left: outset 3px white;
-	transition: all 1s;
+	transition: all .3s;
+	padding: 5px;
 }
 
 /*******************************************-EFECTOS-*********************************************************/
@@ -383,10 +363,6 @@ nav#buscador a h4:hover{
    	animation-delay: 0s;
 }
 
-@media(max-width: 900px){
-p, div h1, div div div div div h2, div h4, div div h2{font-size: 15px} 
-}
-
 @keyframes aparecer{
 	0%{opacity: 0}
 	50%{opacity: 2}
@@ -405,6 +381,8 @@ p, div h1, div div div div div h2, div h4, div div h2{font-size: 15px}
      background-color: black; }
 
 }
+
+
 
 .effect_Trans1{
 	transition: all 2s;
@@ -427,3 +405,15 @@ p, div h1, div div div div div h2, div h4, div div h2{font-size: 15px}
   	 75%{ width: 100%}
   	 100%{ width: 100%;
      background-color: black;}
+
+@media screen and (max-width: 576px) {
+
+	.tñCell_Parra1 {font-size: 5px}
+
+}
+
+@media (min-width: 576px) and (max-width: 1100px) {
+
+	.tñCell_Parra1 {font-size: 5px}
+
+}

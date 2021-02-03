@@ -2,13 +2,9 @@
 
   <html lang="en">
 
-    <head>
+    <head><!--AQUI COLOCAMOS LA PRIMERA PARTE -->
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
-      <meta name="INICIO" content="Dispositivos, Electrónico, domésticos, electrodomésticos, compra, venta, quienes somos, ubicación">
 
       <link rel="stylesheet" type="text/css" href="css/index.css"> 
 
@@ -18,146 +14,166 @@
 
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-      <title>HOLA DOGGYNG</title>
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 
-    </head>
+      <meta name="INICIO" content="Dispositivos, Electrónico, domésticos, electrodomésticos, compra, venta, quienes somos, ubicación">
 
-    <body>
+      <title>HOLA DOGGYNG</title> <!--AQUI COLOCAMOS EL TITULO -->
 
-    <!----------------------------------------------------------------------------------------------------------->
+    </head> <!--AQUI CULMINAMOS LA PRIMERA PARTE -->
 
-      <header>
+    <body> <!--AQUI INICIAMOS EL BODY-->
 
-        <div class="Bloque4__Encabezado efecto_Encabezado">
+<!----------------------------------------------------ENCABEZADO------------------------------------------------->
+
+      <header> <!--AQUI COLOCAMOS UN ENCABEZADO -->
+
+        <div class="Bloque4__Encabezado efecto_Encabezado"> <!--AQUI COLOCAMOS ESTILOS AL ENCABEZADO-->
 
           <img src="imagenes_pag_web\doggyn.png" alt="logotipo de doggyn" width="100" height="100" class="img-" /> <!-- AQUI SE COLOCA EL LOGOTIPO-->
 
           <h1>HOLA DOGGYNG</h1> <hr/> <!-- AQUI SE COLOCA EL TITULO DE LA PAG WEB-->
 
-        </div>
-      
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-warning">
+        </div> <!--AQUI CULMINAMOS ESTILOS AL ENCABEZADO-->
+
+<!--------------------------------------------------BARRA DE MENÚ--.--------------------------------------------->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-warning"><!--AQUI COLOCAMOS LA BARRA DE MENÚ (PROVENIENTE DE BOOTSTRAP)-->
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+
+          </button> <!--AQUI COLOCAMOS BOTONES PARA LA BARRA DE MENÚ-->
+          
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="Index_bstp_js.html">INICIO<span class="sr-only">(current)</span></a>
+            
+            <ul class="navbar-nav mr-auto"> <!--AQUI COLOCAMOS UNA LISTA PARA PONER LOS BOTONES-->
+              
+              <li class="nav-item active"> <!--AQUI COLOCAMOS EL BOTON "INICIO"-->
+                <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item">
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "SERVICIOS"-->
                 <a class="nav-link" href="servicios.html">SERVICIOS</a>
               </li>
-              <li class="nav-item">
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "REFERENCIAS"-->
                 <a class="nav-link" href="referencias.html">REFERENCIAS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="catalogo_grid.html">CATALOGO<span class="badge badge-warning" id="effect-Aperecer">Nuevo</span></a>
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "CATÁLOGO"-->
+                <a class="nav-link" href="catalogo_grid.html">CATÁLOGO<span class="badge badge-warning" id="effect-Aperecer">Nuevo</span></a>
               </li>
-              <li class="nav-item">
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "REGISTRATE"-->
                 <a class="nav-link" href="registrate.html">REGISTRATE</a>
               </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
+
+            </ul> <!--AQUI CULMINAMOS LA LISTA-->
+            
+            <form class="form-inline my-2 my-lg-0"><!--AQUI COLOCAMOS EL BUSCADOR PARA LA PAG-->
               <input class="form-control mr-sm-2" type="search" placeholder="busca aqui..." aria-label="Search">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
-            </form>
-          </div>
-        </nav>
+            </form><!--AQUI CULMINAMOS-->
 
-      </header>
+          </div>
+
+        </nav> <!--AQUI CULMINAMOS LA BARRA DE MENÚ-->
+
+      </header> <!--AQUI CULMINAMOS EL ENCABEZADO-->
   
-<br/><!------------------------------------------------------------------------------------------------------>
+<br/><!---------------------------------------CONTENIDO DE LA SESIÓN--------------------------------------------->
 
       <main>
       
-        <div class="container text-light">
+        <div class="container text-light"> <!-- AQUI COLOCAMOS ESTILOS PARA PARRAFO-->
         
-          <div class="border border-warning rounded" id="fondo_Bg1"><h1 class="text-warning fs-lg-1 fs-md-4 fs-6" id="effect-Text1"> ¿Quien es DOGGYNG? </h1> <!-- AQUI SE COLOCA UN SUBTITULO-->
+          <div class="border border-warning rounded" id="fondo_Bg1"><h1 class="text-warning tñCell_Parra1" id="effect-Text1"> ¿Quien es DOGGYNG? </h1> <!-- AQUI SE COLOCA UN SUBTITULO CON ESTILOS-->
       
-          <p> Hola a todos, mi nombre es DOGGYNG, su fiel amigo asesor y venderdor, y les quiero dar la Bienvenida a este sitio web en donde podrán ver gran variedad de dispositivos electrónicos, electrodomésticos, accesorios y más... <p></div> <!-- AQUI SE COLOCA UNA INFORMACION DE LA PAG WEB-->
+          <p> Hola a todos, mi nombre es DOGGYNG, su fiel amigo asesor y venderdor, y les quiero dar la Bienvenida a este sitio web en donde podrán ver gran variedad de dispositivos electrónicos, electrodomésticos, accesorios y más... <p></div> <!-- AQUI COLOCAMOS UN PARRAFO-->
 
           <hr/>
 
-          <div class="border border-warning rounded" id="fondo_Bg1"><h1 class="text-warning" align="center" id="effect-Text1"> ¿En que se basa DOGGYNG? </h1> <!-- AQUI SE COLOCA UN SUBTITULO-->
+          <div class="border border-warning rounded" id="fondo_Bg1"><h1 class="text-warning" align="center" id="effect-Text1"> ¿En que se basa DOGGYNG? </h1> <!-- AQUI SE COLOCA UN SUBTITULO CON ESTILOS-->
 
-          <p> Somos una empresa dedicada a la venta y asesoramiento de los dispositivos electrónicos y electrodomésticos MÁS populares y exclusivos en todo el país de CHILE. <br/><br/> Con el apoyo de de las mejores marcas, podremos darles asesoramiento del equipo electrónico y/o electrodomésticos el cual están buscando. "para mas información, puedes dar click al ícono de la marca que tú buscas"<p></div>
+          <p> Somos una empresa dedicada a la venta y asesoramiento de los dispositivos electrónicos y electrodomésticos MÁS populares y exclusivos en todo el país de CHILE. <br/><br/> Con el apoyo de de las mejores marcas, podremos darles asesoramiento del equipo electrónico y/o electrodomésticos el cual están buscando. "para mas información, puedes dar click al ícono de la marca que tú buscas"<p></div> <!-- AQUI COLOCAMOS UN PARRAFO-->
 
         </div>
 
-<br/><!------------------------------------------------------------------------------------------------------>
+<br/><!--------------------------------------CARTAS INFORMATIVAS------------------------------------------------->
 
-        <div class="container-fluid justify-content-around text-light">
-          <div class="row">
-            <div class="col-sm">      
-              <div class="card container border-warning effect-Text2" align="center" style="width: 18rem;" id="effect-Text2">
-                <img class="card-img-top" src="imagenes_pag_web\iPHONE.png" alt="iPHONE" width="200" height="150">
-                  <div class="card-body">
+        <div class="container-fluid justify-content-around text-light"><!-- AQUI COLOCAMOS AJUSTES PARA LAS CARTAS INFORMATIVA-->
+          <div class="row"> <!-- AQUI COLOCAMOS LA DIRECCIÓN-->
+            <div class="col-sm"> <!-- AQUI INICIAMOS UNA CARTA INFORMATIVA-->
+              <div class="card container border-warning" align="center" style="width: 18rem;" id="effect-Text2"> <!-- AQUI AJUSTAMOS TAMAÑO, COLOR Y FORMA DE LA CARTA-->
+                <img class="card-img-top" src="imagenes_pag_web\iPHONE.png" alt="iPHONE" width="200" height="150"> <!-- AQUI COLOCAMOS UNA IMAGEN REFERENTE A LA INFORMACION-->
+                  <div class="card-body"> <!-- AQUI COLOCAMOS DESCRIPCION DE LA CARTA INFORMATIVA-->
                     <h2 class="card-title text-warning" align="center">Iphone</h2>
                     <a href="#" class="btn btn-primary">Ver</a>
-                  </div>
-              </div>
-            </div>
+                  </div><!-- AQUI CULMINAMOS LA DESCRIPCIÓN-->
+              </div><!-- AQUI CULMINAMOS LOS AJUSTES-->
+            </div><!-- AQUI CULMINAMOS UNA CARTA INFORMATIVA-->
 
 <!-------------------------------------------------------------------------------------------------------------->
 
-            <div class="col-sm">
-              <div class="card container border-warning" align="center" style="width: 18rem;" id="effect-Text2">
-                <img class="card-img-top" src="imagenes_pag_web\samsung.png" alt="Card image cap" width="200" height="150">
-                  <div class="card-body">
+            <div class="col-sm"> <!-- AQUI INICIAMOS UNA CARTA INFORMATIVA-->
+              <div class="card container border-warning" align="center" style="width: 18rem;" id="effect-Text2"> <!-- AQUI AJUSTAMOS TAMAÑO, COLOR Y FORMA DE LA CARTA-->
+                <img class="card-img-top" src="imagenes_pag_web\samsung.png" alt="Samsung" width="200" height="150"> <!-- AQUI COLOCAMOS UNA IMAGEN REFERENTE A LA INFORMACION-->
+                  <div class="card-body"> <!-- AQUI COLOCAMOS DESCRIPCION DE LA CARTA INFORMATIVA-->
                     <h2 class="card-title text-warning" align="center">Samsung</h2>
                     <a href="#" class="btn btn-primary">Ver</a>
-                  </div>
-              </div>
-            </div>
+                  </div><!-- AQUI CULMINAMOS LA DESCRIPCIÓN-->
+              </div><!-- AQUI CULMINAMOS LOS AJUSTES-->
+            </div><!-- AQUI CULMINAMOS UNA CARTA INFORMATIVA-->
 
 <!--------------------------------------------------------------------------------------------------------------->
 
-            <div class="col-sm">
-              <div class="card container border-warning" align="center" style="width: 18rem;" id="effect-Text2">
-                <img class="card-img-top" src="imagenes_pag_web\HUAWEI.jpeg" alt="Card image cap" width="200" height="150">
-                  <div class="card-body">
+            <div class="col-sm"> <!-- AQUI INICIAMOS UNA CARTA INFORMATIVA-->
+              <div class="card container border-warning" align="center" style="width: 18rem;" id="effect-Text2"> <!-- AQUI AJUSTAMOS TAMAÑO, COLOR Y FORMA DE LA CARTA-->
+                <img class="card-img-top" src="imagenes_pag_web\HUAWEI.jpeg" alt="Card image cap" width="200" height="150"> <!-- AQUI COLOCAMOS UNA IMAGEN REFERENTE A LA INFORMACION-->
+                  <div class="card-body"> <!-- AQUI COLOCAMOS DESCRIPCION DE LA CARTA INFORMATIVA-->
                     <h2 class="card-title text-warning" align="center">HUAWUEI</h2>
                     <a href="#" class="btn btn-primary">Ver</a>
-                  </div>
-              </div>    
-            </div>
+                  </div><!-- AQUI CULMINAMOS LA DESCRIPCIÓN-->
+              </div><!-- AQUI CULMINAMOS LOS AJUSTES-->
+            </div><!-- AQUI CULMINAMOS UNA CARTA INFORMATIVA-->
             
 <!-------------------------------------------------------------------------------------------------------------->
 
-            <div class="col-sm">
+            <div class="col-sm"> <!-- AQUI INICIAMOS UNA CARTA INFORMATIVA-->
               <div class="card container border-warning" align="center" style="width: 18rem;" id="effect-Text2">
-                <img class="card-img-top" src="imagenes_pag_web\XIAOMI.png" alt="Card image cap" width="200" height="150">
-                  <div class="card-body">
+                <!-- AQUI AJUSTAMOS TAMAÑO, COLOR Y FORMA DE LA CARTA-->
+                <img class="card-img-top" src="imagenes_pag_web\XIAOMI.png" alt="Card image cap" width="200" height="150"> <!-- AQUI COLOCAMOS UNA IMAGEN REFERENTE A LA INFORMACION-->
+                  <div class="card-body"> <!-- AQUI COLOCAMOS DESCRIPCION DE LA CARTA INFORMATIVA-->
                     <h2 class="card-title text-warning" align="center">XIAOMI</h2>
                     <a href="#" class="btn btn-primary">Ver</a>
-                  </div>
-              </div>     
-            </div>
-          </div>
-        </div>
+                  </div><!-- AQUI CULMINAMOS LA DESCRIPCIÓN-->
+              </div><!-- AQUI CULMINAMOS LOS AJUSTES-->
+            </div><!-- AQUI CULMINAMOS UNA CARTA INFORMATIVA-->
+          </div><!-- AQUI CULMINAMOS LA DIRECCION-->
+        </div> <!-- AQUI CULMINAMOS AJUSTES PARA LAS CARTAS INFORMATIVA-->
       
-<hr class="border-warning"/>
+<hr class="border-warning"/> <!--------------------------------INFORMATIVOS-------------------------------------->
 
-        <div class="media justify-content-around container bg-dark border-warning border text-light" id="fondo_Bg1">
-          <img src="imagenes_pag_web\asombrado.jpeg" width="250" height="200" class="rounded">
-            <div class="media-body">
+        <div class="media justify-content-around container bg-dark border-warning border text-light" id="fondo_Bg1"> <!-- AQUI INICIAMOS UN INFORMATIVO-->
+          <img src="imagenes_pag_web\asombrado.jpeg" width="250" height="200" class="rounded"> <!-- AQUI COLOCAMOS UNA IMAGEN REFERENTE A LA INFORMACION-->
+            <div class="media-body"> <!-- AQUI COLOCAMOS LA DESCRPCIÓN DEL INFORMATIVO-->
               <h2> gran variedad de dispositivos electrónicos en oferta ¡¡SOLO POR ESTE MEEEEEEEES!! Aprovecha estas promociones ante de que termine el mes...</h2><br/>
-                <div align="right"><a href="#" class="btn btn-primary">Ver más...</a></div>
+                <div align="right"><a href="#" class="btn btn-primary">Ver más...</a></div> <!-- AQUI COLOCAMOS UN BOTÓN-->
             </div>
         </div>
 
-<hr class="border-warning"/>
+<br/>
 
         <div class="media justify-content-around container bg-dark border-warning border text-light" id="fondo_Bg1">
-          <img src="imagenes_pag_web\asesoria.jpeg" width="250" height="200"class="rounded">
+          <img src="imagenes_pag_web\asesoria.jpeg" width="250" height="200"class="rounded"><!-- AQUI COLOCAMOS UNA IMAGEN REFERENTE A LA INFORMACION-->
             <div class="media-body">
               <h2> TENEMOS ACCESORIOS ÚNICOS Y EXCLUSIVOS, NO SOLO PARA CELULARES, SINO PARA NOTEBOOK, COMPUTADORAS, SISTEMAS DE AUDIOS, EQUIPOS DE SONIDOS Y MÁS...</h2><br/>
                 <div align="right"><a href="#" class="btn btn-primary">Ver más...</a></div>
             </div>
         </div>
 
-<hr class="border-warning"/>
+<br/>
 
         <div class="media justify-content-around container bg-dark border-warning border text-light" id="fondo_Bg1">
           <img src="imagenes_pag_web\cupones.png" width="250" height="200" class="rounded">
@@ -167,7 +183,7 @@
             </div>
         </div>
 
-<hr class="border-warning"/>
+<br/>
 
       </main>
 
@@ -271,22 +287,22 @@
 
                    <ul align="left">
                       <li>
-                        <a href="" class="text-light">¿Quien es DOGGYNG?</a>
+                        <a href="#" class="text-light">¿Quien es DOGGYNG?</a>
                       </li>
                       <li>
-                        <a href="" class="text-light">¿En Qué se basa DOGGYNG?</a>
+                        <a href="#" class="text-light">¿En Qué se basa DOGGYNG?</a>
                       </li>
                       <li>
-                        <a href="" class="text-light">Promociones</a>
+                        <a href="#" class="text-light">Promociones</a>
                       </li>
                       <li>
-                        <a href="" class="text-light">¿Quienes Somos?</a>
+                        <a href="#" class="text-light">¿Quienes Somos?</a>
                       </li>
                       <li>
-                        <a href="" class="text-light">Nuestro Objectivo</a>
+                        <a href="#" class="text-light">Nuestro Objectivo</a>
                       </li>
                       <li>
-                        <a href=""  class="text-light">Ubicaciones</a>
+                        <a href="#"  class="text-light">Ubicaciones</a>
                       </li>
                     </ul>
 
@@ -303,16 +319,16 @@
 
                     <ul align="left">
                       <li>
-                        <a href="" class="text-light">¿Que servicios podemos ofrecer?</a>
+                        <a href="#" class="text-light">¿Que servicios podemos ofrecer?</a>
                       </li>
                       <li>
-                        <a href="" class="text-light">¿Como te podriamos asesorar?</a>
+                        <a href="#" class="text-light">¿Como te podriamos asesorar?</a>
                       </li>
                       <li>
-                        <a href="" class="text-light">CONSUL-RESPUESTA</a>
+                        <a href="#" class="text-light">CONSUL-RESPUESTA</a>
                       </li>
                       <li>
-                        <a href="" class="text-light">Servicio técnico</a>
+                        <a href="#" class="text-light">Servicio técnico</a>
                       </li>
                     </ul>
 
