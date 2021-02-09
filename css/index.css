@@ -2,6 +2,16 @@ body {
     background-image: url("https://hdwallsource.com/img/2015/9/technology-wallpaper-47751-49307-hd-wallpapers.jpg");
 }
 
+p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.Nros_Cata{
+    font-size: 20px;
+    margin: 10px;
+}
+
 .Bloque4__Encabezado {
     display: flex;
     flex-direction: row;
@@ -136,12 +146,7 @@ td {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: #515151;
     margin: 10px 10px 20px 20px;
-    border-top: double 5px black;
-    border-bottom: double 5px black;
-    border-left: double 5px black;
-    border-right: double 5px black;
 }
 
 .Hijo-Obj {
@@ -151,6 +156,8 @@ td {
     align-items: center;
     height: 300px;
     width: 500px;
+    padding:  20px 20px
+    margin: 10px 10px 20px 20px;
     border-top: double 5px cyan;
     border-bottom: double 5px cyan;
     border-left: double 5px cyan;
@@ -197,7 +204,14 @@ td {
 
 #grilla {
     display: grid;
-    grid-template-areas: "nav producto1" "nav producto2" "nav producto3" "nav producto4" "nav producto5";
+    grid-template-areas: 
+
+        "nav producto1" 
+        "nav producto2" 
+        "nav producto3" 
+        "nav producto4" 
+        "nav producto5";
+
     grid-template-rows: auto auto auto auto auto;
     grid-template-columns: 20% 75%;
     justify-content: center;
@@ -228,6 +242,7 @@ section#producto5 {
 nav {
     grid-area: nav;
     text-align: center;
+    opacity: 0.9;
 }
 
 /*************************************************************************************************************/
@@ -262,7 +277,7 @@ input.buscador {
 
 input:focus {
     width: 200px;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 @keyframes un_efecto1 {
@@ -337,6 +352,7 @@ nav#buscador a h4:hover {
 
 #fondo_Bg1 {
     background-image: linear-gradient(black, gray, black);
+    opacity: 0.9;
 }
 
 #fondo_Bg2 {
@@ -407,6 +423,7 @@ nav#buscador a h4:hover {
 }
 
 @media (max-width: 576px) {
+  
   .img-{
     display: none;
   }
@@ -415,17 +432,139 @@ nav#buscador a h4:hover {
   	font-size: 15px;
   }
 
+  .tex-Ubi_Obj{
+    font-size: 30px
+  }
+
   .carta-Info-min{
  	padding: 3px;
  	margin: 3px;
   }
 
-  .img-Carta-info{
-  	width: 100px;
-  	height: 50px;
+  .ubic_flex{
+    display: flex;
+    flex-direction: column;
   }
+
+  .carousel-None{
+    display: none;
+  }
+
+  .title-Con_Res{
+    display: none;
+  }
+
+  td, th{
+    display: flex;
+    flex-direction: column;
+  }
+
+      div#grilla{
+        
+        display: grid;
+        grid-template-areas: 
+
+        "nav"
+        "producto1" 
+        "producto2" 
+        "producto3" 
+        "producto4" 
+        "producto5";
+
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 100%;
+    justify-content: space-between;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+}
+
+    section#producto1 {
+        grid-area: producto1;
+    }
+
+    section#producto2 {
+        grid-area: producto2;
+    }
+
+    section#producto3 {
+        grid-area: producto3;
+    }
+
+    section#producto4 {
+        grid-area: producto4;
+    }
+
+    section#producto5 {
+        grid-area: producto5;
+    }
+
+    nav {
+        grid-area: nav;
+        text-align: center;
+    }
+
+    .div-None{
+        display: none;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 1100px) {
     
+    .text-Med{
+        font-size: 20px;
+    }
+
+    td, th{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div#grilla{
+        
+        display: grid;
+        grid-template-areas: 
+
+        "nav"
+        "producto1" 
+        "producto2" 
+        "producto3" 
+        "producto4" 
+        "producto5";
+
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: 85%;
+    justify-content: space-around;
+    grid-column-gap: 20px;
+    grid-row-gap: 15px;
+}
+
+    section#producto1 {
+        grid-area: producto1;
+    }
+
+    section#producto2 {
+        grid-area: producto2;
+    }
+
+    section#producto3 {
+        grid-area: producto3;
+    }
+
+    section#producto4 {
+        grid-area: producto4;
+    }
+
+    section#producto5 {
+        grid-area: producto5;
+    }
+
+    nav {
+        grid-area: nav;
+        text-align: center;
+    }
+
+    .div-None{
+        display: none;
+    }
+
 }

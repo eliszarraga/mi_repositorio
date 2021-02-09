@@ -63,7 +63,7 @@ h4 {
 
 .Bloque5__Footer {
   justify-content: space-around;
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   border: solid orange 5px; }
   .Bloque5__Footer p {
     color: orange; }
@@ -74,7 +74,7 @@ h4 {
   color: orange; }
 
 .Bloque5-6__Fieldset5-6 {
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   text-align: center;
   border-top: double orange 10px;
   border-right: double orange 10px;
@@ -100,7 +100,7 @@ h4 {
 .Bloque7__Consul-respuesta, .Bloque7__Consul-respuesta--New {
   margin: 20px;
   width: 400px;
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   text-align: center; }
 
 .Bloque7__Consul-respuesta--New {
@@ -109,7 +109,7 @@ h4 {
 
 .bloque__Caja1 {
   margin: 20px;
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   opacity: 0.9; }
   .bloque__Caja1 h2 {
     color: orange;
@@ -117,7 +117,7 @@ h4 {
 
 .bloque__Caja2 {
   margin: 20px;
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   opacity: 0.9; }
   .bloque__Caja2 h2 {
     color: orange;
@@ -125,7 +125,7 @@ h4 {
 
 .bloque__Caja3 {
   margin: 20px;
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   opacity: 0.9; }
   .bloque__Caja3 h2 {
     color: orange;
@@ -133,7 +133,7 @@ h4 {
 
 .bloque__Caja4 {
   margin: 20px;
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   opacity: 0.9; }
   .bloque__Caja4 h2 {
     color: orange;
@@ -141,7 +141,7 @@ h4 {
 
 .bloque__Caja5 {
   margin: 20px;
-  background-color: #2C2C2C;
+  background-image: linear-gradient(black, gray, black);
   opacity: 0.9; }
   .bloque__Caja5 h2 {
     color: orange;
@@ -174,3 +174,31 @@ h4 {
   100% {
     width: 100%;
     background-color: black; } }
+
+@media (max-width: 576px) {
+  .img- {
+    display: none; }
+  .text-Min {
+    font-size: 15px; }
+  .tex-Ubi_Obj {
+    font-size: 30px; }
+  .carta-Info-min {
+    padding: 3px;
+    margin: 3px; }
+  .img-Carta-info {
+    width: 100px;
+    height: 50px; }
+  .ubic_flex {
+    display: flex;
+    flex-direction: column; }
+  .carousel-None {
+    display: none; }
+  .title-Con_Res {
+    display: none; }
+  td, th {
+    display: flex;
+    flex-direction: column; } }
+
+@media (min-width: 576px) and (max-width: 1100px) {
+  .text-Med {
+    font-size: 20px; } }

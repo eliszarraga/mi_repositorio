@@ -20,9 +20,9 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-      <link rel="stylesheet" type="text/css" href="css/index.css">
+     
       <link rel="stylesheet" type="text/css" href="css/miStyleCSS.css">
+      <link rel="stylesheet" type="text/css" href="css/index.css">
 
       <meta name="SERVICIOS" content="Referencias, Consul-respuesta, formulario, servicios, consulta, respuestas, asesorías">
 
@@ -37,7 +37,7 @@
 			
 				<div class="Bloque4__Encabezado">
 					<img src="imagenes_pag_web\doggyn.png" alt="logotipo de doggyn" width="100" height="100"/> <!-- AQUI SE COLOCA EL LOGOTIPO-->
-					<h1>HOLA DOGGYNG</h1> <hr/> <!-- AQUI SE COLOCA EL TITULO DE LA PAG WEB-->
+					<h1 id="effect-Text1">HOLA DOGGYNG</h1> <hr/> <!-- AQUI SE COLOCA EL TITULO DE LA PAG WEB-->
 				</div>
       
         		<nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-warning">
@@ -53,10 +53,10 @@
                 					<a class="nav-link" href="servicios.html">SERVICIOS</a>
               					</li>
               					<li class="nav-item">
-                					<a class="nav-link" href="referencias.html">REFERENCIAS <span class="badge badge-warning">Nuevo</span></a>
+                					<a class="nav-link" href="referencias.html">REFERENCIAS</a>
               					</li>
               					<li class="nav-item">
-                					<a class="nav-link" href="catalogo.html">CATALOGO</a>
+                					<a class="nav-link" href="catalogo.html">CATALOGO<span class="badge badge-warning">Nuevo</span></a>
               					</li>
               					<li class="nav-item">
                 					<a class="nav-link" href="registrate.html">REGISTRATE</a>
@@ -77,7 +77,7 @@
 			
 				<h2 id="effect-Text1" class="text-warning"> ¿QUE SERVICIOS PODEMOS OFRECER? </h2> <!-- aqui colocamos un subtitulo -->
 
-				<p>Principalmente podemos ofrecer un servicio de ASESORIA, es decir, podemos asesorar a nuestros clientes en cuanto a producto que busca, ofrecerle la mejor calidad de los productos, resumen en cuanto a las marcas y que ofrecen la misma, entre otros. </p> <!-- aqui colocamos un parrafo -->
+				<p class="text-Min text-Med no_Estar">Principalmente podemos ofrecer un servicio de ASESORIA, es decir, podemos asesorar a nuestros clientes en cuanto a producto que busca, ofrecerle la mejor calidad de los productos, resumen en cuanto a las marcas y que ofrecen la misma, entre otros. </p> <!-- aqui colocamos un parrafo -->
 			
 			</div>
 
@@ -86,12 +86,12 @@
 			<div class="bloque__Caja2 Bloque2__Articulo2--mod2 styleBorder">
 				<H2 id="effect-Text1" class="text-warning"> ¿COMO TE PODRIAMOS ACESORAR? </H2> <!-- aqui colocamos un subtitulo -->
 
-				<p> Recientemente, hemos logrado implementar, en nuestra pagina web, un sistema que la hemos llamado <i>"consul-respuesta"</i> con la finalidad de que puedas consultar en cuanto a los productos que te llamen la atención y que dudas tiene en cuanto a la misma, y así, darte una respuesta en un tiempo lapso de 24hrs o menos. <br/><br/> A continuación, podrán utilizar nuestro <i>"consul-respuesta"</i> de la siguiente manera:</p> <!-- aqui colocamos un parrafo -->
+				<p class="text-Min"> Recientemente, hemos logrado implementar, en nuestra pagina web, un sistema que la hemos llamado <i>"consul-respuesta"</i> con la finalidad de que puedas consultar en cuanto a los productos que te llamen la atención y que dudas tiene en cuanto a la misma, y así, darte una respuesta en un tiempo lapso de 24hrs o menos. <br/><br/> A continuación, podrán utilizar nuestro <i>"consul-respuesta"</i> de la siguiente manera:</p> <!-- aqui colocamos un parrafo -->
 			</div>
 
 	<hr/> <!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
 
-			<h1 class="Bloque7__Consul-respuesta Bloque7__Consul-respuesta--New">CONSUL-RESPUESTA</h1> <!-- aqui colocamos un subtitulo -->
+			<h1 class="Bloque7__Consul-respuesta Bloque7__Consul-respuesta--New text-Min title-Con_Res">CONSUL-RESPUESTA</h1> <!-- aqui colocamos un subtitulo -->
 
 				<form><!-- aqui inicia el formulario -->
 
@@ -116,7 +116,7 @@
 	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
 						
 						<div class="Bloque5-6__Fieldset5-6--mod"> COMENTE SUS DUDAS </div> <!-- aqui colocamos el comentario -->
-						<textarea name="comentarios" cols="80" rows="10" class="paraLosinput col-sm">No mas de 2000 caracteres.</textarea><br/>
+						<textarea name="comentarios" cols="80" rows="10" class="paraLosinput container">No mas de 2000 caracteres.</textarea><br/>
 
 	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
 
@@ -128,7 +128,7 @@
 				</form><!-- aqui inicia el formulario -->
 
 
-			<h4 class="bloque__Caja4 styleBorder"> Despues de que envíe el formulario, nosotros le enviaremos nuestra respuesta por medio del correo que nos ha indicado en un lapso de 24 horas o menos, si aun no le llega la respuesta, por favor, <a href=""> dar click aqui. </a></h4> <!-- aqui colocamos un parrafo -->
+			<h4 class="bloque__Caja4 styleBorder"> Despues de que envíe el formulario, nosotros le enviaremos nuestra respuesta por medio del correo que nos ha indicado en un lapso de 24 horas o menos, si aun no le llega la respuesta, por favor, <a href="#"> dar click aqui. </a></h4> <!-- aqui colocamos un parrafo -->
 
 	<hr/> <!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>	
 			
@@ -168,7 +168,7 @@
 						
 						<div class="Bloque5-6__Fieldset5-6--mod"> COMENTE SUS DUDAS </div> <!-- aqui colocamos el comentario -->
             <div class="col-sm">
-						<textarea name="comentarios" cols="80" rows="10" class="paraLosinput col-sm">No mas de 2000 caracteres.</textarea>
+						<textarea name="comentarios" cols="80" rows="10" class="paraLosinput container">No mas de 2000 caracteres.</textarea>
 
 	<br/><!-----------------------------------AQUI SEPARAMOS------------------------------------------------------------------------------>
 
@@ -179,7 +179,7 @@
 
 				<form><!-- aqui inicia el formulario -->
 
-			<h4 class="bloque__Caja5 styleBorder"> Despues de que envie el formulario, nosotros le enviaremos nuestra respuesta por medio del correo que nos ha indicado en un lapso de 24 horas o menos, si aun no le llega la respuesta, por favor, <a href="" class="navLista"> dar click aqui. </a></h4>
+			<h4 class="bloque__Caja5 styleBorder"> Despues de que envie el formulario, nosotros le enviaremos nuestra respuesta por medio del correo que nos ha indicado en un lapso de 24 horas o menos, si aun no le llega la respuesta, por favor, <a href="#"> dar click aqui. </a></h4>
 
 		</main>
 
