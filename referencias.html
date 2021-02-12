@@ -41,49 +41,47 @@
 
         </div>
 
-		    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-warning">
+		    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border border-warning"><!--AQUI COLOCAMOS LA BARRA DE MENÚ (PROVENIENTE DE BOOTSTRAP)-->
 
-        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        		<span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
 
-        	</button>
+          </button> <!--AQUI COLOCAMOS BOTONES PARA LA BARRA DE MENÚ-->
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+            <ul class="navbar-nav mr-auto"> <!--AQUI COLOCAMOS UNA LISTA PARA PONER LOS BOTONES-->
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "INICIO"-->
+                <a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
+              </li>
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "SERVICIOS"-->
+                <a class="nav-link" href="servicios.html">SERVICIOS</a>
+              </li>
+              
+              <li class="nav-item active"> <!--AQUI COLOCAMOS EL BOTON "REFERENCIAS"-->
+                <a class="nav-link" href="referencias.html">REFERENCIAS</a>
+              </li>
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "CATÁLOGO"-->
+                <a class="nav-link" href="catalogo.html">CATÁLOGO<span class="badge badge-warning" id="effect-Aperecer">Nuevo</span></a>
+              </li>
+              
+              <li class="nav-item"> <!--AQUI COLOCAMOS EL BOTON "REGISTRATE"-->
+                <a class="nav-link" href="registrate.html">REGISTRATE</a>
+              </li>
 
-          	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+            </ul> <!--AQUI CULMINAMOS LA LISTA-->
+            
+            <form class="form-inline my-2 my-lg-0"><!--AQUI COLOCAMOS EL BUSCADOR PARA LA PAG-->
+              <input class="form-control mr-sm-2" type="search" placeholder="busca aqui..." aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
+            </form><!--AQUI CULMINAMOS-->
 
-            	<ul class="navbar-nav mr-auto">
+          </div>
 
-                <li class="nav-item">
-                	<a class="nav-link" href="index.html">INICIO<span class="sr-only">(current)</span></a>
-              	</li>
-
-                <li class="nav-item">
-                	<a class="nav-link" href="servicios.html">SERVICIOS</a>
-              	</li>
-
-              	<li class="nav-item active">
-                	<a class="nav-link" href="referencias.html">REFERENCIAS</a>
-              	</li>
-
-              	<li class="nav-item">
-                	<a class="nav-link" href="catalogo.html">CATALOGO<span class="badge badge-warning" id="effect-Aperecer">Nuevo</span></a>
-              	</li>
-
-              	<li class="nav-item">
-                	<a class="nav-link" href="registrate.html">REGISTRATE</a>
-              	</li>
-
-            	</ul>
-
-            	<form class="form-inline my-2 my-lg-0">
-
-              		<input class="form-control mr-sm-2" type="search" placeholder="busca aqui..." aria-label="Search">
-              		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
-
-            	</form>
-
-            </div>
-
-        </nav>
+        </nav> <!--AQUI CULMINAMOS LA BARRA DE MENÚ-->
 
         </header> <!-- AQUI SE CULMINA UN HEADER-->
 
@@ -182,175 +180,175 @@
 
 		</div>
 
- <footer>
+ <footer class="container-fluid"><!--AQUI SE COLOCA EL PIE DE PAGINA DE NUESTRO SITIO WEB-->
       
-        <div class="card text-center text-white bg-dark">
+        <div class="card text-center text-white bg-dark"><!--AQUI SE COLOCA EL ESTILO DE FONDO DE PIE DE PAGINA-->
           
-          <div class="card-body">
+          <div class="card-body"><!--AQUI SE COLOCA PEQUEÑA DESCRIPCION-->
               <h5 class="card-title">¡Doggyn, lo mejor para el mejor!</h5>
               <p class="card-text">Elis Zarraga - Hola Doggyn 2020.</p>
-          </div>
+          </div><!--AQUI CULMINA LA PEQUEÑA DESCRIPCION-->
 
-          <div class="container-fluid justify-content-around text-light">
-          <div class="row">
+          <div class="container-fluid justify-content-around text-light"><!--AQUI AJUSTAMOS TAMAÑO, MARGEN Y ESTILO DE CADA BLOQUE--> 
+          <div class="row"><!--AQUI INICIAMOS UN BLOQUE-->
             <div class="col-sm">      
-              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1"><!--AQUI AJUSTAMOS TAMAÑO, MARGEN Y ESTILO DEL BLOQUE 1--> 
                   <div class="card-body">
-                    <h5 class="card-title text-warning" align="center" id="effect-Text1">INICIO</h5><hr class="border-warning"/>
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">INICIO</h5><hr class="border-warning"/><!--AQUI COLOCAMOS EL TITULO DEL PRIMER BLOQUE-->
 
-                   <ul align="left">
+                   <ul align="left"><!--AQUI COLOCAMOS UNA LISTA CON LOS LINK DESCRIPTIVOS DEL PRIMER BLOQUE-->
                       <li>
-                        <a href="" class="text-light">¿Quien es DOGGYNG?</a>
+                        <a href="index.html" class="text-light">¿Quien es DOGGYNG?</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">¿En Qué se basa DOGGYNG?</a>
+                        <a href="index.html" class="text-light">¿En Qué se basa DOGGYNG?</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Promociones</a>
+                        <a href="index.html" class="text-light">Promociones</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">¿Quienes Somos?</a>
+                        <a href="index.html" class="text-light">¿Quienes Somos?</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Nuestro Objectivo</a>
+                        <a href="index.html" class="text-light">Nuestro Objectivo</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href=""  class="text-light">Ubicaciones</a>
+                        <a href="index.html" class="text-light">Ubicaciones</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                     </ul>
 
                   </div>
               </div>
-            </div>
+            </div><!--AQUI CULMINAMOS DICHO BLOQUE-->
 
 <!-------------------------------------------------------------------------------------------------------------->
 
-            <div class="col-sm">
-              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+            <div class="col-sm"><!--AQUI INICIAMOS UN BLOQUE-->
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1"><!--AQUI AJUSTAMOS TAMAÑO, MARGEN Y ESTILO DEL BLOQUE 2--> 
                   <div class="card-body">
-                    <h5 class="card-title text-warning" align="center" id="effect-Text1">SERVICIO</h5><hr class="border-warning"/>
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">SERVICIO</h5><hr class="border-warning"/><!--AQUI COLOCAMOS EL TITULO DEL SEGUNDO BLOQUE-->
 
                     <ul align="left">
                       <li>
-                        <a href="" class="text-light">¿Que servicios podemos ofrecer?</a>
+                        <a href="servicios.html" class="text-light">¿Que servicios podemos ofrecer?</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">¿Como te podriamos asesorar?</a>
+                        <a href="servicios.html" class="text-light">¿Como te podriamos asesorar?</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">CONSUL-RESPUESTA</a>
+                        <a href="servicios.html" class="text-light">CONSUL-RESPUESTA</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Servicio técnico</a>
+                        <a href="servicios.html" class="text-light">Servicio técnico</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                     </ul>
 
                   </div>
               </div>
-            </div>
+            </div><!--AQUI CULMINAMOS DICHO BLOQUE-->
 
 <!--------------------------------------------------------------------------------------------------------------->
 
-            <div class="col-sm">
-              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+            <div class="col-sm"><!--AQUI INICIAMOS UN BLOQUE-->
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1"><!--AQUI AJUSTAMOS TAMAÑO, MARGEN Y ESTILO DEL BLOQUE 3--> 
                   <div class="card-body">
-                    <h5 class="card-title text-warning" align="center" id="effect-Text1">REFERENCIAS</h5><hr class="border-warning"/>
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">REFERENCIAS</h5><hr class="border-warning"/><!--AQUI COLOCAMOS EL TITULO DEL TERCER BLOQUE-->
 
                    <ul align="left">
                       <li>
-                        <a href="" class="text-light">REFERENCIA</a>
+                        <a href="referencias.html" class="text-light">REFERENCIA</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Dar tu opinion</a>
+                        <a href="referencias.html" class="text-light">Dar tu opinion</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Dar tu referencia</a>
+                        <a href="referencias.html" class="text-light">Dar tu referencia</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                     </ul>
                   </div>
               </div>    
-            </div>
+            </div><!--AQUI CULMINAMOS DICHO BLOQUE-->
             
 <!-------------------------------------------------------------------------------------------------------------->
 
-             <div class="col-sm">
-              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+             <div class="col-sm"><!--AQUI INICIAMOS UN BLOQUE-->
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1"><!--AQUI AJUSTAMOS TAMAÑO, MARGEN Y ESTILO DEL BLOQUE 4--> 
                   <div class="card-body">
-                    <h5 class="card-title text-warning" align="center" id="effect-Text1">CATALOGO</h5><hr class="border-warning"/>
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">CATALOGO</h5><hr class="border-warning"/><!--AQUI COLOCAMOS EL TITULO DEL CUARTO BLOQUE-->
                     <h6 class="card-title text-warning" align="center" id="effect-Text1">DISPOSITIVOS</h6><hr class="border-warning"/>
                     <ul align="left">
                       <li>
-                        <a href="" class="text-light">celulares</a>
+                        <a href="catalogo.html" class="text-light">celulares</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href=""class="text-light">Audifonos</a>
+                        <a href="catalogo.html"class="text-light">Audifonos</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Gamepad</a>
+                        <a href="catalogo.html" class="text-light">Gamepad</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Televisores</a>
+                        <a href="catalogo.html" class="text-light">Televisores</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Notebook</a>
+                        <a href="catalogo.html" class="text-light">Notebook</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Computadora</a>
+                        <a href="catalogo.html" class="text-light">Computadora</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                     </ul><hr class="border-warning"/>
-                    <h6 class="card-title text-warning" align="center" id="effect-Text1">MARCAS</h6><hr class="border-warning"/>
+                    <h6 class="card-title text-warning" align="center" id="effect-Text1">MARCAS</h6><hr class="border-warning"/><!--AQUI COLOCAMOS EL TITULO DEL PRIMER BLOQUE-->
                      <ul align="left">
                       <li>
-                        <a href="" class="text-light">LG</a>   
+                        <a href="catalogo.html" class="text-light">LG</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">SAMSUNG</a>
+                        <a href="catalogo.html" class="text-light">SAMSUNG</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">SONY</a>
+                        <a href="catalogo.html" class="text-light">SONY</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">PANASONIC</a>
+                        <a href="catalogo.html" class="text-light">PANASONIC</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                     </ul>
 
                   </div>
               </div>    
-            </div>
+            </div><!--AQUI CULMINAMOS DICHO BLOQUE-->
             
 <!-------------------------------------------------------------------------------------------------------------->
 
-            <div class="col-sm">
-              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1">
+            <div class="col-sm"><!--AQUI INICIAMOS UN BLOQUE-->
+              <div class="card container border-warning" align="center" style="width: 100%;" id="fondo_Bg1"><!--AQUI AJUSTAMOS TAMAÑO, MARGEN Y ESTILO DEL BLOQUE 5--> 
                   <div class="card-body">
-                    <h5 class="card-title text-warning" align="center" id="effect-Text1">REGISTRATE</h5><hr class="border-warning"/>
+                    <h5 class="card-title text-warning" align="center" id="effect-Text1">REGISTRATE</h5><hr class="border-warning"/><!--AQUI COLOCAMOS EL TITULO DEL QUINTO BLOQUE-->
 
                     <ul align="left">
                       <li>
-                        <a href="" class="text-light">Registrate aquí</a>
+                        <a href="registrate.html" class="text-light">Registrate aquí</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Inicia sesión aquí</a>
+                        <a href="registrate.html" class="text-light">Inicia sesión aquí</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                       <li>
-                        <a href="" class="text-light">Términos y condiciones</a>
+                        <a href="registrate.html" class="text-light">Términos y condiciones</a><!--AQUI COLOCAMOS LINK-->
                       </li>
                     </ul>
 
                   </div>
               </div>     
-            </div>
+            </div> <!--AQUI CULMINAMOS DICHO BLOQUE-->
           </div>
         </div>
 
-          <div class="card-footer text-muted">
-            <img src="./img/instagram.png" alt="cupones" width="50" height="50"/>
-            <img src="./img/facebook.png" alt="cupones" width="50" height="50"/>
-            <img src="./img/twitter.png" alt="cupones" width="50" height="50"/>
-          </div>
+          <div class="card-footer text-muted"><!--AQUI COLOCAMOS LAS REDES SOCIALES-->
+            <img src="./img/instagram.png" alt="instagram" width="50" height="50"/>
+            <img src="./img/facebook.png" alt="facebook" width="50" height="50"/>
+            <img src="./img/twitter.png" alt="witter" width="50" height="50"/>
+          </div><!--AQUI COLOCAMOS LAS REDES SOCIALES-->
         </div>
 
-      </footer>
+      </footer><!--AQUI FINALIZA EL PIE DE PAGINA-->
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
